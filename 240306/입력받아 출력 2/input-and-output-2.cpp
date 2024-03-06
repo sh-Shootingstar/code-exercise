@@ -8,7 +8,7 @@ int main() {
     cin >> a;
     cin.get();
     cin >> b;
-    cin.get();
+   
 
     cout << a << b;
 
