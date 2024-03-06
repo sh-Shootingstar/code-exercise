@@ -12,7 +12,7 @@ int main() {
     cin.get();
     cin >> c;
 
-    cout << "0"<< a << "-" << c << "-" << b; 
+    cout << "010-"<< c << "-" << b; 
 
 
 
