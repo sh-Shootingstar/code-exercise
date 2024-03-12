@@ -9,12 +9,11 @@ int main() {
     
     cin >> a >> b;
 
-    a = (a + b)/(a-b);
+    cout << fixed;
+    cout.precision(2);
+
+    cout << (double) (a + b)/(a - b);
      
-
-    printf("%.2f", a);
-
-
 
 
     return 0;
