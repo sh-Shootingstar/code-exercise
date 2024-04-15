@@ -6,13 +6,15 @@ int main() {
     int a;
     cin >> a;
 
-    if(a > 10) {
-        a +=5;
-        cout << a << endl;
-        a -= 6;
-    }
+    if(a < 0) {
+       
+        cout << a << endl << "minus" << endl;
 
-    cout << a;
+
+       
+    }
+    else cout << a;; 
+    
     return 0;
 
 
